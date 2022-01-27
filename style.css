@@ -1,0 +1,140 @@
+#title{
+    background-image: url(images/t1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.title-img1{
+  width: 400px;
+  height: 400px;
+  margin: 20% 7% 10%;
+  animation: rotation 5s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotatey(0deg);
+  }
+  to {
+    transform: rotatey(360deg);
+    perspective: 600px;
+  }
+}
+.title-img2{
+  width: 100%;
+  margin-top: 76%;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+ .nav-item{
+   padding: 0 10px;
+ }
+ .nav-link{
+   font-family: "Montserrat-light";
+   font-size: 1.2rem;
+ }
+ 
+ .navbar-brand{
+   font-family: "Ubuntu";
+   font-size: 3rem;
+ }
+.heading{
+    margin: 200px 0px;
+    color: white;
+ 
+}
+.container-fluid{
+    padding: 0% 10% 5%;
+  }
+
+/**featuress**/
+
+#features{
+    color: black;
+    text-align: center;
+    padding: 2% 0% 2%;
+    font-family: "Montserrat-dark";
+    font-size: 1.2rem;
+}  
+
+.feature-heading{
+  margin-bottom: 4%;
+}
+
+.shoes{
+  transition: transform .2s;
+    height: 200px;
+    width: 200px;
+}
+.shoes:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/**collaboration*/
+#collaboration{
+  background-image: url(images/t1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.collaboration{
+  padding: 3% 0% 5%;
+}
+.collabHeading{
+  text-align: center;
+  color: aliceblue;
+  font-family:"Montserrat-light";
+  font-size: 2.5rem; 
+  margin-bottom: 2%;
+}
+/**press*/
+#press{
+  text-align: center;
+}
+.press-logo {
+  text-align: center;
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.press-logo:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/**types**/
+#types{
+  padding: 100px 100px;
+}
+.card-title{
+  
+}
+.list-item{
+  color: rgb(119, 21, 21);
+}
+/**footer**/
+#footer{
+  padding: 10px 5px;
+  background-image: url(images/t1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: aliceblue;
+  text-align: center;
+}
+.membership{
+  padding: 40px 10px;
+  text-align: left;
+}
+.help{
+  padding: 40px 10px;
+  text-align: left;
+}
+.help-list{
+  color: aliceblue;
+  font-size: small;
+}
+.about{
+  padding: 40px 10px;
+  text-align: left;
+}
+.Icons {
+  margin: 30px 10px;
+  text-align: right;
+  line-height: 2.5rem;
+}
